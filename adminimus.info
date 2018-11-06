@@ -1,0 +1,6 @@
+name = 'Adminimus Theme'
+description = An Adminimal child theme.
+core = 7.x
+base theme = adminimal
+
+stylesheets[all][] = css/adminimus.css

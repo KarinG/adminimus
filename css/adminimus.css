@@ -1,0 +1,4 @@
+/* shoreditch resets */
+body:not(.toolbar):not(.page-civicrm) {
+  padding-top: 0 !important;
+}
