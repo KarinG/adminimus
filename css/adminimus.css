@@ -2,3 +2,7 @@
 body:not(.toolbar):not(.page-civicrm) {
   padding-top: 0 !important;
 }
+/* Workaround for too-wide currency select overlapping amounts. */
+#s2id_currency .select2-choice {
+  box-sizing: border-box;
+}
