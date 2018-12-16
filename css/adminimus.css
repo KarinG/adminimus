@@ -6,3 +6,7 @@ body:not(.toolbar):not(.page-civicrm) {
 #s2id_currency .select2-choice {
   box-sizing: border-box;
 }
+/* Highlight important contact merge rows. */
+.page-civicrm-contact-merge .crm-container .row-highlight tbody tr.crm-row-error td {
+  background-color: #cf3458 !important;
+}
