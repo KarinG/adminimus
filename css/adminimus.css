@@ -2,9 +2,8 @@
 body:not(.toolbar):not(.page-civicrm) {
   padding-top: 0 !important;
 }
-/* Workaround for too-wide currency select overlapping amounts. */
-#s2id_currency .select2-choice {
-  box-sizing: border-box;
+#total_amount {
+  margin-left: 2.25em;
 }
 /* Highlight important contact merge rows. */
 .page-civicrm-contact-merge .crm-container .row-highlight tbody tr.crm-row-error td {
